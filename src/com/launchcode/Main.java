@@ -6,5 +6,14 @@ public class Main {
 	// write your code here
         System.out.println("Hello world edit");
         System.out.println("dodatkowy tekst");
+        System.out.println("Trzecia linia tekstu");
+
+        String name = "John";
+
+        System.out.println("Imie: " + name);
+
+        Imie czlowiek = new Imie("ImieZKonstruktora");
+        System.out.println("Wypisuje zawartosc klasy Imie: " + czlowiek.getImie());
+
     }
 }
