@@ -15,5 +15,8 @@ public class Main {
         Imie czlowiek = new Imie("ImieZKonstruktora");
         System.out.println("Wypisuje zawartosc klasy Imie: " + czlowiek.getImie());
 
+        System.out.println("");
+        System.out.println("Commit Tom'a");
+
     }
 }
